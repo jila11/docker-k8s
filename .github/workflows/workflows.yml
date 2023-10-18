@@ -27,8 +27,8 @@ jobs:
         distribution: 'temurin'
         java-version: '11'
         
-    - name: build the code
-      run: mvn clean package
+    - name: build code
+      run: mvn clean install
 
     - name: run unit test
       run: mvn test 
