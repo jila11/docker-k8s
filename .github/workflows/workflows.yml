@@ -20,7 +20,7 @@ jobs:
         DEFAULT_BRANCH: main
         GITHUB_TOKEN: ${{ secrets.JILA_TOKEN }}  
     - name: setup java
-    - uses: actions/setup-java@v3
+      uses: actions/setup-java@v3
       with:
         distribution: 'temurin'
         java-version: '11'
